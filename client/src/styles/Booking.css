@@ -1,0 +1,99 @@
+.action {
+    width: 300px;
+    align-items: center;
+}
+
+.appoint-parent {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.par-btn {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 80px;
+    gap: 2px;
+}
+
+.btnA {
+    border: 2px solid #4cae4c;
+    border-radius: 40px;
+    background-color: #5cb85c;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+}
+
+.btnB {
+    border: 2px solid red;
+    height: 50%;
+    width: 100%;
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn1 {
+    margin-top: 5px;
+}
+
+.btn2 {
+    margin-top: 5px;
+}
+
+.btnA:hover {
+    background-color: white;
+    color: black;
+    font-weight: inherit;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.btnB:hover {
+    background-color: white;
+    color: black;
+    font-weight: inherit;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+
+/*
+
+ */
+
+.name {
+    width: 40px;
+}
+
+.child-app {
+    text-align: center;
+    display: inline-block;
+    height: 8vh;
+    font-style: oblique;
+    font-size: 25px;
+    border: 2px solid #f0f8ff;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 30vw;
+    border-radius: 6px;
+    background-color: #f0f8ff;
+    margin-bottom: 15px;
+    position: sticky;
+}
+
+.child-app h1 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.DoctorList {
+    margin-top: 70px;
+    height: 380px;
+    overflow-y: scroll;
+}

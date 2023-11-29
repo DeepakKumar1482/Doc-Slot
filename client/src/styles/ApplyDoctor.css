@@ -1,0 +1,117 @@
+/* Apply these CSS styles to make the form responsive using CSS Grid */
+
+
+/* Center the content horizontally and add some spacing */
+
+.all {
+    /* border: 2px solid rgb(208, 233, 255); */
+    border-radius: 10px;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    /* margin-left: 200px; */
+}
+
+
+/* Style the form container */
+
+.Form {
+    width: 100%;
+    max-width: 700px;
+    /* Adjust the maximum width as needed */
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 10px;
+    /* margin-top: 20px; */
+    /* Add spacing between the heading and the form */
+}
+
+
+/* Style the heading */
+
+.heading {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* Apply grid properties to create two columns */
+
+.doc-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    /* Two columns with equal width */
+    /* Adjust the gap between grid items as needed */
+}
+
+.doc-form1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+
+/* Add responsive styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+    /* Change grid to a single column layout on small screens */
+    .doc-form {
+        grid-template-columns: 1fr 1fr;
+        /* Single column layout */
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    /* Change grid to a single column layout on small screens */
+    .doc-form {
+        grid-template-columns: 1fr 1fr;
+        /* Single column layout */
+    }
+}
+
+@media screen and (max-width: 369px) {
+    /* Change grid to a single column layout on small screens */
+    .heading {
+        display: none !important;
+    }
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    /* margin: 20px; */
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn22 {
+    background-image: linear-gradient( to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+}

@@ -1,0 +1,20 @@
+.form-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background: url("./Limeade.jpg");
+}
+
+.card {
+    border: 1px solid black;
+    width: 50vw;
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.link {
+    text-align: center;
+    margin-top: 5px;
+}
