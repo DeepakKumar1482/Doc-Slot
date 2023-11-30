@@ -9,7 +9,11 @@ const connectDB = require('./config/db');
 dotenv.config();
 connectDB();
 const app = express();
-app.use(cors());
+app.use(cors({
+    origin: ['https://deploy-mern-1whq.vercel.app'],
+    methods: ['GET', 'POST'],
+    credentials: true,
+}));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(morgan('dev'));
